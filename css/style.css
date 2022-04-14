@@ -1,1 +1,94 @@
+#introduction {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(192, 27, 34);
+}
+#telecomunication{
+  background-color: rgb(255, 255, 255);
+  color: rgb(192, 27, 34)
+}
 
+#economy, #military {
+  background-color: rgb(192, 27, 34);
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  color: rgb(192, 27, 34)
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(255, 255, 255)
+}
+
+section {
+  outline: 2px solid;
+  outline-color:black;
+  align-content: start;
+  justify-content: start;
+  outline: 2px solid;
+  outline-color:black;
+  align-content: start;
+  justify-content: start;
+  width: 900px;
+   height: auto;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+body {
+width: 900px;
+ height: auto;
+ padding: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ background: url("../images/malta-background.png");
+ background-position: center;
+}
+
+header{
+  outline: 2px solid;
+  outline-color:black;
+  align-content: start;
+  justify-content: start;
+  width: 900px;
+   height: auto;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   background-color: rgb(255, 255, 255)
+}
+
+nav {
+  outline: 2px solid;
+  outline-color:black;
+  align-content: start;
+  justify-content: start;
+  width: 900px;
+   height: auto;
+   padding: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(255, 255, 255);
+   position: sticky;
+   top: 0px;
+   background-color: rgb(192, 27, 34);
+   color: rgb(255, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
+
+figure{
+  text-align: center;
+}
