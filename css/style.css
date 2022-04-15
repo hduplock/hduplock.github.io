@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+/* Google fonts are Lato and Montserrat */
+
 #introduction {
+  grid-area: introduction;
   text-align: center;
   background-color: rgb(255, 255, 255);
   color: rgb(192, 27, 34);
 }
 #telecomunication{
+  grid-area: telecomunication;
   background-color: rgb(255, 255, 255);
   color: rgb(192, 27, 34)
 }
@@ -13,78 +18,102 @@
   color: rgb(255, 255, 255);
 }
 
-header {
-  background-color: rgb(255, 255, 255);
-  color: rgb(192, 27, 34)
+#economy{
+  grid-area: economy;
+}
+
+#military{
+  grid-area: military;
+}
+
+main{
+  width: 100%;
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "introduction introduction"
+  "economy  telecomunication"
+  "military         military"
 }
 
 footer{
+  width: 100%;
+  grid-area: footer;
   text-align: center;
-  background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255);
+  outline: 2px solid;
+  outline-color:black;;
 }
 
 section {
+  width: 100%;
   outline: 2px solid;
   outline-color:black;
-  align-content: start;
-  justify-content: start;
-  outline: 2px solid;
-  outline-color:black;
-  align-content: start;
-  justify-content: start;
-  width: 900px;
    height: auto;
-   padding: 20px;
    margin-left: auto;
    margin-right: auto;
 }
-
 body {
-width: 900px;
- height: auto;
- padding: 20px;
- margin-left: auto;
- margin-right: auto;
+  width: 100%;
+ font-family:"Lato", "Montserrat", "Verdana", "arial", sans-serif;
  background: url("../images/malta-background.png");
  background-position: center;
+ text-align: center;
+
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-areas:
+ "header header"
+ "nav    nav"
+ "main   main"
+ "footer footer"
 }
 
 header{
-  outline: 2px solid;
-  outline-color:black;
+  grid-area: header;
   align-content: start;
   justify-content: start;
-  width: 900px;
    height: auto;
-   padding: 20px;
    margin-left: auto;
    margin-right: auto;
    text-align: center;
-   background-color: rgb(255, 255, 255)
+   background-color: rgb(255, 255, 255);
+   color: rgb(192, 27, 34)
 }
 
 nav {
-  outline: 2px solid;
-  outline-color:black;
-  align-content: start;
-  justify-content: start;
-  width: 900px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  grid-area: nav;
    height: auto;
-   padding: 20px;
    margin-left: auto;
    margin-right: auto;
    background-color: rgb(255, 255, 255);
-   position: sticky;
-   top: 0px;
    background-color: rgb(192, 27, 34);
    color: rgb(255, 255, 255);
+
+   outline: 2px solid;
+   outline-color:black;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(170, 255, 0);
+}
+
+a:hover {
+  color: rgb(240,248,255);
+}
+
+a:active {
+  color: rgb(30,144,255);
 }
 
 
