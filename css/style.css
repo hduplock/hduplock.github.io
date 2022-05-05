@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+/* Google fonts are Lato and Montserrat */
+
 body {
  max-width: 960px;
  font-family:"Lato", "Montserrat", "Verdana", "arial", sans-serif;
@@ -12,7 +15,6 @@ body {
  "footer footer";
  background: url("../images/dogbackground.png");
  background-position: right;
-
 }
 
 header{
@@ -114,7 +116,7 @@ footer{
 
   #introduction {
     grid-area: introduction;
-    
+
   }
 
 
