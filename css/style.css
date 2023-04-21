@@ -58,17 +58,17 @@ main{
   max-width: 960px;
   grid-area: main;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "georgeandhenry georgeandhenry"
-  "george                  henry"
-  "bernese               bernese"
-  "lila lila"
-  "cairn cairn"
-  "cooper cooper"
-  "mutt mutt"
-  "ollie ollie"
-  "havanese havanese"
+  "georgeandhenry georgeandhenry georgeandhenry"
+  "george george henry"
+  "bernese  bernese bernese"
+  "lila  lila lila"
+  "cairn cairn cairn"
+  "cooper cooper cooper"
+  "mutt mutt mutt"
+  "ollie ollie ollie"
+  "havanese havanese havanese";
 }
 
 
